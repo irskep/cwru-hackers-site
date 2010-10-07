@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Day Roman";
+	src: local("Day Roman"), url(/dayroman.ttf) format("truetype");
+}
+
+html, body { margin: 0; padding: 0 }
+
+body {
+	font-family: "Day Roman", Garamond, "Times New Roman", Times, serif;
+	max-width: 582px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+}
+
+div#header { text-align: center }
+
+abbr {
+	font-variant: small-caps;
+	text-transform: lowercase;
+}
+
+hr { display: none }
+
+p,li {
+	line-height: 1.6;
+}
+
+ul, dl { padding-left: 40px; margin-left: 0 }
+
+dt { display: list-item }
+
+dd {
+/*	font-style: italic;*/
+	display: block;
+	margin-left: 1em;
+}
+
+div#footer { text-align: right }
+
+div#footer a { text-decoration: none }

@@ -1,0 +1,12 @@
+span.plan
+{
+	opacity: 0.75;
+	font-style: italic;
+}
+
+#content
+{
+	column-count: 2;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+}

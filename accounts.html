@@ -1,0 +1,22 @@
+<!doctype html>
+<title>Opening an account</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div id="header">
+<h1>Opening an account</h1>
+</div>
+
+<div id="content">
+<p>Two simple steps to gain access to this lovely <a href="http://openbsd.org/">OpenBSD</a> box:
+<ol><li>Ask the president (or other <abbr>VIP</abbr>); make sure they know your full name and desired username.
+    <li>You have a choice: a) Transmit your <abbr>SSH</abbr> public key, or b) secretly share a temporary password.</ol>
+
+<h2><abbr>SSH</abbr> Public Keys</h2>
+<p>This is an alternate method of logging in that does not require you to enter your password, and is preferred for frequent usage. On your own computer, invoke the <kbd>ssh-keygen</kbd> command, which creates two files:
+<ul><li><code>~/.ssh/id_rsa</code>
+    <li><code>~/.ssh/id_rsa.pub</code>.</ul>
+<p>It is this latter file that is appended to <code>~/.ssh/authorized_keys</code> on this server to allow you to log in. You can do this yourself after following the second method above, or the system administrator can do this for you, in which case you do not need a password at all.
+<p>If you’re running Windows, look into <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">Pageant</a>.
+</div>
+
+<div id="footer"><a href="/">CWRU Hacker Society</a></div>
