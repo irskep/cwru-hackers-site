@@ -26,16 +26,4 @@ p,li {
 	line-height: 1.6;
 }
 
-ul, dl { padding-left: 40px; margin-left: 0 }
-
-dt { display: list-item }
-
-dd {
-/*	font-style: italic;*/
-	display: block;
-	margin-left: 1em;
-}
-
-div#footer { text-align: right }
-
-div#footer a { text-decoration: none }
+ul { padding-left: 40px; margin-left: 0 }
